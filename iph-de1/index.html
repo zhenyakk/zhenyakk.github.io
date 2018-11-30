@@ -63,6 +63,16 @@ function pushAfterTimeout(timeout){
 var TIMEOUT_IN_SECONDS = 10;
 pushAfterTimeout(TIMEOUT_IN_SECONDS);
 </script>
+  
+  
+  
+  <script>
+  function getURLParameter(name) {
+    return decodeURI(
+      (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+    );
+  }
+</script>
 
 <!------SCRIPT END------->
 
