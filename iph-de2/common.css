@@ -1,0 +1,25 @@
+
+.grecaptcha-badge {
+ display:none; 
+}
+
+
+a:link navbar{
+  text-decoration: none; /* no underline */
+}
+
+a:visited {
+  text-decoration: none; /* no underline */
+}
+a:hover {
+  text-decoration: none; /* no underline */
+}
+
+a:active {
+  text-decoration: none; /* no underline */
+}
+
+
+
+
+
