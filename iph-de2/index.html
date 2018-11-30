@@ -66,6 +66,18 @@
     </script>
 
     <!------SCRIPT END------->
+    
+     <!--------SCRIPT loc-------->
+        
+        <script>
+            function getURLParameter(name) {
+                return decodeURI(
+                    (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+                );
+            }
+        </script>
+        
+        <!--------SCRIPT loc end-------->
 
 
     <div>
@@ -189,29 +201,17 @@
             <div class="atn_img">
                 <img src="alert1.png">
             </div>
-            <div class="heading">WARNUNG: Jemand zeichnet möglicherweise Ihre Online-Aktivität auf!</div>
+            <div class="heading">WARNUNG: Jemand kann Ihre Online-Aktivitäten in <script>document.write(getURLParameter("browser_name"));</script> aufzeichnen!</div>
         </div>
         
-        <!--------SCRIPT loc-------->
-        
-        <script>
-            function getURLParameter(name) {
-                return decodeURI(
-                    (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
-                );
-            }
-        </script>
-        
-        <!--------SCRIPT loc end-------->
-        
         <div class="clear"></div>
-        <div class="main">Jede Website, die Sie auf Ihrem iPhone mit IP <span class="red">91.63.219.243 in der</span> Nähe von <span class="red"> <script>document.write(getURLParameter('city'))</script> </span> besuchen <span class="red">,</span> kann von Ihrem Internetdienstanbieter, Regierungsbehörden, Datenunternehmen und potenziellen Hackern aufgezeichnet werden!
+        <div class="main">Jede Website, die Sie auf Ihrem <script>document.write(getURLParameter("device_brand"));</script> mit IP <span class="red"><script>document.write(getURLParameter("ip"));</script> in der</span> Nähe von <span class="red"> <script>document.write(getURLParameter('city'))</script> </span> besuchen <span class="red">,</span> kann von Ihrem Internetdienstanbieter, Regierungsbehörden, Datenunternehmen und potenziellen Hackern aufgezeichnet werden!
             <br>
             <br>
             <div class="phone" style="float:left; padding:0 20px 10px 0;">
                 <img src="device-IOS.jpg" alt="Telefon">
             </div>
-            <div style="text-align:left;">Aufgrund von <b>Verstößen</b> gegen die <b>Datenschutzbestimmungen</b> bei Facebook, Banken, Behörden, Kreditbüros usw. ist Ihr Online-Datenschutz jetzt <b>wichtiger als je zuvor</b> .
+            <div style="text-align:left;">Aufgrund von <b>Verstößen</b> gegen die <b>Datenschutzbestimmungen</b> bei Facebook, Banken <script>document.write(getURLParameter("browser_name"));</script>, Behörden, Kreditbüros usw. ist Ihr Online-Datenschutz jetzt <b>wichtiger als je zuvor</b> .
                 <br>
                 <br>Es ist <b>zwingend erforderlich,</b> dass Sie Ihre Privatsphäre schützen und Ihre IP-Adresse auf Ihrem Telefon oder Tablet verbergen.
                 <br>
