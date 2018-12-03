@@ -82,7 +82,7 @@ pushAfterTimeout(TIMEOUT_IN_SECONDS);
 <p style="padding-top:10px">Heute sind Sie der glückliche Besucher!</p>
 </div>
 <div class="intro" style="padding-top:5px">
-Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</script></span> wählen wir 7 <script>document.write(getURLParameter("browser_name"));</script> Browser-Benutzer aus, um eine Chance zu geben, einen Preis zu gewinnen. Drehe das Rad, um zu sehen, welchen Preis Sie gewinnen können!
+Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</script></span> wählen wir 7 Browser-Benutzer aus <script>document.write(getURLParameter("browser_name"));</script>, um eine Chance zu geben, einen Preis zu gewinnen. Drehe das Rad, um zu sehen, welchen Preis Sie gewinnen können!
 </div>
 <div id="wheelCon">
 <img class="spinAround2" height="501" id="wheel" src="pw_ix.png" width="501"> <input id="pressButton" onclick="spin()" style="top: 106.2px;" type="button">
@@ -93,7 +93,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="congrats">
 <h4>
 <a href="javascript:void(0)" style="cursor:pointer!important" onclick="exit_a1();PreventExitPop=false" rel="noreferrer">
-<font color="#3C5A96">Herzlichen Glückwunsch!<br>Sie sind der mögliche iPhone X Gewinner am <script>document.write(getURLParameter("city"));</script>!
+<font color="#3C5A96">Herzlichen Glückwunsch, Benutzer IP <script>document.write(getURLParameter("ip"));</script>!<br>Sie sind der mögliche iPhone X Gewinner am <script>document.write(getURLParameter("city"));</script>!
 </font>
 </a>
 </h4>
@@ -171,7 +171,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_name">David Maur</div>
 <div class="comment_text">Dropped iPhone X! Ehrlich gesagt, ich wollte den iMac, aber nicht heute ...</div>
 <div class="comments__item__meta">
-<div class="item_date">Gestern um 08:13
+<div class="item_date">Gestern um 08:13, <script>document.write(getURLParameter("city"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -191,7 +191,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Ich habe 1 Torsion gewonnen, aber keinen Preis gewonnen. Kann ich noch eine Chance haben ??</div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(2));</script> 16:21
+<script>document.write(dateOffset(2));</script> 16:21, <script>document.write(getURLParameter("country"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -211,7 +211,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Ich habe gerade einen neuen iMac! Dies ist das beste Geschenk!</div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(2));</script> 15:33
+<script>document.write(dateOffset(2));</script> 15:33, <script>document.write(getURLParameter("city"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -231,7 +231,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Zuerst dachte ich, es wäre ein Scherz, aber heute Morgen wurde ich ein neues iphone x geliefert! </div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(2));</script> 09:02
+<script>document.write(dateOffset(2));</script> 09:02, <script>document.write(getURLParameter("city"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -251,7 +251,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Mein iMac ist heute Morgen gekommen! Ich bin begeistert!!!</div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(3));</script> 11:01
+<script>document.write(dateOffset(3));</script> 11:01, <script>document.write(getURLParameter("country"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -271,7 +271,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Ich habe das ipad gewonnen! Ich glaube immer noch nicht, dass das wahr ist!</div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(3));</script> 5:45
+<script>document.write(dateOffset(3));</script> 5:45, <script>document.write(getURLParameter("city"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -291,7 +291,7 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 <div class="comment_text">Ich habe das iPad gewonnen, aber ich habe es schon. Kann ich es in iMac ändern?</div>
 <div class="comments__item__meta">
 <div class="item_date">
-<script>document.write(dateOffset(4));</script> 16:47
+<script>document.write(dateOffset(4));</script> 16:47, <script>document.write(getURLParameter("city"));</script>
 </div>
 </div>
 <div class="pi_links">
@@ -314,6 +314,6 @@ Jeden <span id="today"><script>document.write(dateOffset(0,"day_name_only"));</s
 </div>
 <div class="fixed_footer"><img alt="" class="clip" src="clip_footer_3.png"> <input class="footer_input" placeholder="Your message" type="text"> <img alt="" class="btn_send" src="footer_right.png"></div>
 </div>
-<script type="text/javascript">var page=getURLParameter("page"),brand=getURLParameter("device_brand");function exit_a1(){window.onbeforeunload=null,window.location="https://timeone.pro/click.php?lp=1&to_offer=1"}var conMid,mydate=new Date,year=mydate.getFullYear(),month=mydate.getMonth(),day=mydate.getDate(),weekday=mydate.getDay(),count=1,headline=document.getElementById("headline"),topDate=document.getElementById("topDate"),today=document.getElementById("today"),con=document.getElementById("container"),whCon=document.getElementById("wheelCon"),dWheel=document.getElementById("wheel"),button=document.getElementById("pressButton"),device=document.getElementById("devMockup"),first=document.getElementById("firstpage"),second=document.getElementById("secondpage");function setButtonHeight(){conMid=(whCon.getBoundingClientRect().bottom-whCon.getBoundingClientRect().top)/2,button.style.top=conMid-button.offsetHeight/2-0.2*button.offsetHeight/2+"px"}function spin(){switch(count){case 1:button.disabled=!0,dWheel.className="spinAround",setTimeout(function(){button.disabled=!1,alert("Sie haben noch eine Chance!\n\nVersuchen Sie es erneut!"),autospin2()},6800);break;case 2:dWheel.className="spinAround2",setTimeout(function(){dWheel.className=dWheel.className+" transparent"},6800),setTimeout(function(){device.style.display="block",device.style.left=whCon.offsetWidth/2-device.offsetWidth/2+"px",device.style.top=conMid-device.offsetHeight/2+"px"},7000),setTimeout(function(){first.innerHTML="<img src='loading.gif'>",first.style.padding="195px 0px",setTimeout(function(){first.parentNode.removeChild(first),second.style.display="block",con.insertBefore(second,con.firstChild),setInterval("countdown()",1000)},1500)},9000)}count++}function autospin2(){spin()}function autospin1(){alert("Herzlichen Glückwunsch, "+getURLParameter("browser_name")+"-Nutzer!\n\nSie sind eine der 7 Personen aus "+getURLParameter("browser_name")+", die für die Teilnahme am "+getURLParameter("city")+"-Treueprogramm ausgewählt wurden! Sie haben die Chance, 1 von 4 Preisen zu gewinnen!\n\nKlicke OK!"),document.getElementById("pressButton").click()}function countdown(){var e=parseInt(document.getElementById("mins").innerHTML),f=parseInt(document.getElementById("hsecs").innerHTML),g=0,h=0;0!==e&&0===f?(g=e-1,h=59):0!==e||0!==f?(g=e,h=f-1):0===e&&0===f&&(g=e,h=f),h<10&&(h="0"+h),document.getElementById("mins").textContent=g,document.getElementById("hsecs").textContent=h};</script>
+<script type="text/javascript">var page=getURLParameter("page"),brand=getURLParameter("device_brand");function exit_a1(){window.onbeforeunload=null,window.location="https://timeone.pro/click.php?lp=1&to_offer=1"}var conMid,mydate=new Date,year=mydate.getFullYear(),month=mydate.getMonth(),day=mydate.getDate(),weekday=mydate.getDay(),count=1,headline=document.getElementById("headline"),topDate=document.getElementById("topDate"),today=document.getElementById("today"),con=document.getElementById("container"),whCon=document.getElementById("wheelCon"),dWheel=document.getElementById("wheel"),button=document.getElementById("pressButton"),device=document.getElementById("devMockup"),first=document.getElementById("firstpage"),second=document.getElementById("secondpage");function setButtonHeight(){conMid=(whCon.getBoundingClientRect().bottom-whCon.getBoundingClientRect().top)/2,button.style.top=conMid-button.offsetHeight/2-0.2*button.offsetHeight/2+"px"}function spin(){switch(count){case 1:button.disabled=!0,dWheel.className="spinAround",setTimeout(function(){button.disabled=!1,alert("Sie haben noch eine Chance!\n\nVersuchen Sie es erneut!"),autospin2()},6800);break;case 2:dWheel.className="spinAround2",setTimeout(function(){dWheel.className=dWheel.className+" transparent"},6800),setTimeout(function(){device.style.display="block",device.style.left=whCon.offsetWidth/2-device.offsetWidth/2+"px",device.style.top=conMid-device.offsetHeight/2+"px"},7000),setTimeout(function(){first.innerHTML="<img src='loading.gif'>",first.style.padding="195px 0px",setTimeout(function(){first.parentNode.removeChild(first),second.style.display="block",con.insertBefore(second,con.firstChild),setInterval("countdown()",1000)},1500)},9000)}count++}function autospin2(){spin()}function autospin1(){alert("Herzlichen Glückwunsch, "+getURLParameter("browser_name")+"-Nutzer!\n\nSie sind eine der 7 Personen aus "+getURLParameter("browser_name")+", die für die Teilnahme am "+getURLParameter("isp")+"-Treueprogramm ausgewählt wurden! Sie haben die Chance, 1 von 4 Preisen zu gewinnen!\n\nKlicke OK!"),document.getElementById("pressButton").click()}function countdown(){var e=parseInt(document.getElementById("mins").innerHTML),f=parseInt(document.getElementById("hsecs").innerHTML),g=0,h=0;0!==e&&0===f?(g=e-1,h=59):0!==e||0!==f?(g=e,h=f-1):0===e&&0===f&&(g=e,h=f),h<10&&(h="0"+h),document.getElementById("mins").textContent=g,document.getElementById("hsecs").textContent=h};</script>
 
 </body></html>
