@@ -663,7 +663,10 @@ a.button_skip {
     left: 10px;
   }
     
-    
+ .titless h1 {
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+    }    
     
     
     }
