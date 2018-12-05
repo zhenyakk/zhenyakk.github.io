@@ -1,0 +1,19 @@
+body {
+	background: url("bg.gif") repeat-x scroll 0 0 #ececec;
+ font: 12px/18px Tahoma, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4{color: #404040;}
+
+h1 {color: #404040;}
+h2 { color: #404040;}
+h2 span { color: #404040;}
+
+h3{ color: #404040;}
+h3 span{ color: #404040;}
+
+aside p{color: #404040;}
+
+.done_marker li{ color: #404040;}
+.decimal li{ color: #404040;}
+.step4 .agree_label{color: #404040;}
