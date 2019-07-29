@@ -1,0 +1,127 @@
+/* ::::: http://big-blogs.ru/titan5/index.css ::::: */
+
+.vk-avatar img { float: left; margin-right: 10px; }
+.vk-comment, .vk-comment-load { margin-bottom: 15px; position: relative; border-bottom: 1px solid rgb(218, 225, 232); padding-bottom: 15px; }
+.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 12px; }
+.vk-comment-text { margin-left: 60px; }
+@media screen and (max-width: 999px) {
+	.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 18px; }
+}
+@media screen and (max-width: 639px) {
+}
+@media screen and (max-width: 319px) {
+	.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 15px; }
+}
+body { padding: 0px; margin: 0px; background: transparent; }
+body * { font-family: Arial; }
+h1, h2, h3 { font-weight: normal; margin: 0px; }
+h1 { font-size: 27px; }
+a { color: rgb(186, 0, 9); }
+a:hover { text-decoration: none; color: rgb(255, 0, 0); }
+.wrap { max-width: 700px; min-width: 240px; margin: 0px auto; }
+body img { max-width: 100%; }
+.content { width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.post { padding: 15px; font-size: 17px; }
+.post .info { color: rgb(153, 153, 153); font-size: 11px; font-style: italic; }
+.post a { font-size: 19px; }
+
+/* ::::: http://proofblogs.com/_blocks/discount_block/css/style.css ::::: */
+
+#trp-discount-block { background: rgba(0, 0, 0, 0) url('../img/discount-block.png') no-repeat scroll 0px -70px; border-radius: 4px; bottom: 1px; color: rgb(255, 255, 255); cursor: pointer; font-family: Verdana; font-size: 16px; height: 70px; line-height: 62px; position: fixed; text-align: center; text-shadow: 1px 0px 2px rgb(0, 0, 0); width: 422px; z-index: 10000; left: 50%; margin-left: -211px; display: block; }
+#trp-discount-block:hover { background-position: 0px 0px; }
+.test {
+    display: none;
+    text-align: center !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+#num {
+    text-align: center;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.tbtn {
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+}
+.test {
+    display: none;
+    text-align: center !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.feedback-form {
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    margin: 10px auto;
+    background-color: #dedede;
+    border-radius: 8px;
+    min-height: 60px;
+}
+
+.feedback-label {
+    text-align: center;
+    font-style: normal;
+    display: block;
+}
+
+.feedback-fio,
+.feedback-phone {
+    width: 100% !important;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    line-height: 30px;
+    color: black;
+    padding: 5px 10px;
+    line-height: 1.1;
+    font-size: 16px;
+    border: none;
+    margin: 5px auto;
+    border-radius: 2px;
+}
+
+.feedback-fio:hover,
+.feedback-phone:hover {
+    outline: 2px solid #8e8e8e;
+}
+
+.feedback-fio:focus,
+.feedback-phone:focus {
+    outline: 2px solid #e38e54;
+}
+
+.feedback-btn {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    line-height: 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    margin: 5px auto;
+    border-radius: 2px;
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.feedback-btn:hover {
+    background-color: #fff;
+    color: rgb(255, 102, 0);
+    transition: background-color 0.8s, color 0.8s;
+    cursor: pointer;
+}
